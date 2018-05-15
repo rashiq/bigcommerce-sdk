@@ -5,14 +5,14 @@ import javax.xml.bind.annotation.XmlRootElement;
 @XmlRootElement
 public class VariantResponse {
 
-	private Variant data;
+    private Variant data;
 
-	public Variant getData() {
-		return data;
-	}
+    public Variant getData() {
+        return data;
+    }
 
-	public void setData(Variant data) {
-		this.data = data;
-	}
+    public void setData(Variant data) {
+        this.data = data;
+    }
 
 }

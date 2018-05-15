@@ -9,69 +9,69 @@ import javax.xml.bind.annotation.XmlRootElement;
 @XmlAccessorType(XmlAccessType.FIELD)
 public class OrderStatus {
 
-	@XmlElement(name = "id")
-	private Integer id;
+    @XmlElement(name = "id")
+    private Integer id;
 
-	@XmlElement(name = "name")
-	private String name;
+    @XmlElement(name = "name")
+    private String name;
 
-	@XmlElement(name = "system_label")
-	private String systemLabel;
+    @XmlElement(name = "system_label")
+    private String systemLabel;
 
-	@XmlElement(name = "custom_label")
-	private String customLabel;
+    @XmlElement(name = "custom_label")
+    private String customLabel;
 
-	@XmlElement(name = "system_description")
-	private String systemDescription;
+    @XmlElement(name = "system_description")
+    private String systemDescription;
 
-	@XmlElement(name = "order")
-	private int order;
+    @XmlElement(name = "order")
+    private int order;
 
-	public Integer getId() {
-		return id;
-	}
+    public Integer getId() {
+        return id;
+    }
 
-	public void setId(Integer id) {
-		this.id = id;
-	}
+    public void setId(Integer id) {
+        this.id = id;
+    }
 
-	public String getName() {
-		return name;
-	}
+    public String getName() {
+        return name;
+    }
 
-	public void setName(String name) {
-		this.name = name;
-	}
+    public void setName(String name) {
+        this.name = name;
+    }
 
-	public String getSystemLabel() {
-		return systemLabel;
-	}
+    public String getSystemLabel() {
+        return systemLabel;
+    }
 
-	public void setSystemLabel(String systemLabel) {
-		this.systemLabel = systemLabel;
-	}
+    public void setSystemLabel(String systemLabel) {
+        this.systemLabel = systemLabel;
+    }
 
-	public String getCustomLabel() {
-		return customLabel;
-	}
+    public String getCustomLabel() {
+        return customLabel;
+    }
 
-	public void setCustomLabel(String customLabel) {
-		this.customLabel = customLabel;
-	}
+    public void setCustomLabel(String customLabel) {
+        this.customLabel = customLabel;
+    }
 
-	public String getSystemDescription() {
-		return systemDescription;
-	}
+    public String getSystemDescription() {
+        return systemDescription;
+    }
 
-	public void setSystemDescription(String systemDescription) {
-		this.systemDescription = systemDescription;
-	}
+    public void setSystemDescription(String systemDescription) {
+        this.systemDescription = systemDescription;
+    }
 
-	public int getOrder() {
-		return order;
-	}
+    public int getOrder() {
+        return order;
+    }
 
-	public void setOrder(int order) {
-		this.order = order;
-	}
+    public void setOrder(int order) {
+        this.order = order;
+    }
 }

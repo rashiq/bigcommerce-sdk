@@ -10,15 +10,15 @@ import javax.xml.bind.annotation.adapters.XmlJavaTypeAdapter;
 @XmlAccessorType(XmlAccessType.FIELD)
 public class Store {
 
-	@XmlElement(name = "weight_units")
-	@XmlJavaTypeAdapter(WeightUnitsAdapter.class)
-	private WeightUnits weightUnits;
+    @XmlElement(name = "weight_units")
+    @XmlJavaTypeAdapter(WeightUnitsAdapter.class)
+    private WeightUnits weightUnits;
 
-	public WeightUnits getWeightUnits() {
-		return weightUnits;
-	}
+    public WeightUnits getWeightUnits() {
+        return weightUnits;
+    }
 
-	public void setWeightUnits(final WeightUnits weightUnits) {
-		this.weightUnits = weightUnits;
-	}
+    public void setWeightUnits(final WeightUnits weightUnits) {
+        this.weightUnits = weightUnits;
+    }
 }
